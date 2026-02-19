@@ -323,7 +323,6 @@ margin-right: 2rem;
 }
 .why-help-sec{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0rem 4rem;
@@ -1633,6 +1632,7 @@ padding: 0%;
 .why-help-sec{
   padding: 1rem 0;
 margin:2 2rem;
+flex-wrap: wrap;
 }
 
 #why-img {
@@ -1646,19 +1646,89 @@ position: static;
   right: 25%;
   top: 30%;
 }
-#grid-1{
-  position: absolute;
-  bottom: 9rem;
-left: 8.7rem;
-}
 
-#dot-img   {
+
+#dot-img ,#grid-1  {
    display: none;
  }
  .why-help-img{
   margin-left: 2rem;
- }
- 
+}
+.blog-card{
+  flex-wrap: wrap;
+}
+.blog-card-content{
+  width: 100%;
+}
+.blog-sec{
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.blog-content{
+  margin-top: 1rem;
+}
+.blog-img{
+  display: block;
+  max-width: 90%;
+padding: 2rem;
+}
+.square-div{
+  height: auto;
+  width: 100%;
+}
+#blog-img-1{
+  height: 90%;
+  width: 50%;
+margin:  auto 4rem;
+}
+.blog{
+  padding: 1rem;
+}
+.blog a{
+  margin: 0;
+}
+.blog-card{
+  margin: auto;
+}
+.foot-2-content{
+  width: 90%;
+  margin-top: 1rem
+}
+.foot-3-a{
+  margin: 0;
+  width: 40%;
+}
+.last{
+  width: 90%;
+  flex-wrap: wrap;
+  line-height: 1rem;
+  margin-left: 2.5rem;
+}
+.div-last-p p{
+font-size: 14px;
+
+}
+.footer-content{
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 5rem auto;
+  gap: 10px;
+}
+.input-div input{
+  width: 60%;
+  gap:30px;
+}
+.footer-img img{
+  left: 2rem;
+}
+.foot-2-content h5{
+  width: 90%;
+}
+.footer{
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
 }
 
 

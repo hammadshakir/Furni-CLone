@@ -1532,6 +1532,7 @@ textarea {
   }
  .hero{
   height: auto;
+  padding: 3rem 1rem;
  }
   .hero-content h2{
     font-size: 1.8rem;

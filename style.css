@@ -1746,6 +1746,13 @@ font-size: 14px;
   width: 80%;
   margin: 0.7rem 0rem;
 }
+.contact{
+  flex-wrap: wrap;
+}
+#btn-submit{
+  padding: 1%;
+  width: 60%;
+}
 }
 
 

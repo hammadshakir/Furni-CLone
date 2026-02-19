@@ -1523,6 +1523,9 @@ textarea {
     cursor: pointer;
     z-index: 20;
   }
+  .hero-content{
+    padding: 0;
+  }
   .hero-content h2,p{
     text-align: center;
     font-size: large;
@@ -1556,7 +1559,7 @@ text-align: center;
   }
   .product-head{
     width: 80%;
-    text-align: center;
+    /* text-align: center; */
 margin: 2rem auto;
   }
   .product-content{
@@ -1567,6 +1570,9 @@ margin: 2rem auto;
   }
   .why-choose-sec{
     padding: 0rem 1rem;
+  }
+  .why-choose-content h3{
+    font-size: 1.2rem;
   }
   .why-choose-content{
     width: 80%;
@@ -1679,8 +1685,6 @@ padding: 2rem;
 }
 #blog-img-1{
   height: 90%;
-  width: 50%;
-margin:  auto 4rem;
 }
 .blog{
   padding: 1rem;
@@ -1689,7 +1693,7 @@ margin:  auto 4rem;
   margin: 0;
 }
 .blog-card{
-  margin: auto;
+  margin: 0;
 }
 .foot-2-content{
   width: 90%;
@@ -1717,7 +1721,7 @@ font-size: 14px;
 }
 .input-div input{
   width: 60%;
-  gap:30px;
+  margin-bottom: 10px;
 }
 .footer-img img{
   left: 2rem;
@@ -1728,6 +1732,18 @@ font-size: 14px;
 .footer{
   flex-wrap: wrap;
   flex-direction: column-reverse;
+}
+.hr-line{
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.all-member{
+  flex-wrap: wrap;
+}
+.team-div{
+  width: 80%;
+  margin: 0.7rem 0rem;
 }
 }
 
